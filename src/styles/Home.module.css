@@ -1,0 +1,49 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../assets/images/email_pattern.png);
+}
+
+.main-container {
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.sub-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  padding: 15px;
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+}
+
+.title-header {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 35px;
+  opacity: .5;
+  letter-spacing: 1.5px;
+  font-family: var(--font-family-redressed)
+}
+
+.form-control {
+  padding-bottom: 10px;
+}
+
+.btn-submit {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}

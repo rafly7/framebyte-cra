@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'OpenSans Regular';
+  src: url('../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'Rajdhani Regular';
+  src: url('../assets/fonts/Rajdhani-Regular.ttf') format('truetype');
+  font-family: 'Redressed Regular';
+  src: url('../assets/fonts/Redressed-Regular.ttf') format('truetype');
+}
+
+body {
+  --primary-color: #3498DB;
+  --font-family-opensans: 'OpenSans Regular', -apple-system, Arial, Helvetica, sans-serif;
+  --font-family-rajdhani: 'Rajdhani Regular', -apple-system, Arial, Helvetica, sans-serif;
+  --font-family-redressed: 'Redressed Regular', -apple-system, Arial, Helvetica, sans-serif;
+}
